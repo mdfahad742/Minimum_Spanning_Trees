@@ -8,6 +8,7 @@ public class UF {
         size = new int[n];
         for (int i = 0; i < n; i++) {
             id[i] = i;
+            size[i] = 1;
         }
     }
 
